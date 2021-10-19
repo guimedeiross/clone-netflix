@@ -39,3 +39,10 @@ footer {
     max-width: 30%;
     width: auto;
 }
+
+@media (max-width:760px) {
+    .loading img {
+        max-width: 90%;
+        width: auto;
+    }   
+}
