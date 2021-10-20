@@ -17,5 +17,5 @@ jobs:
           server: ftp.guilhermeschubert.com.br
           username: guilh091
           password: 0u5u04WtMk
-          server-dir: repo/clonenetflix/
+          server-dir: clonenetflix.guilhermeschubert.com.br/
           local-dir: build/
