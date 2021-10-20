@@ -53,7 +53,7 @@ export default () => {
         ))}
       </section>
       <footer>
-        Desenvolvido com <span role="img" aria-label="coração">❤️</span> por Guilherme Schubert Medeiros<br />
+        Desenvolvido com AMOR <span role="img" aria-label="coração">❤️</span> por Guilherme Schubert Medeiros<br />
         Direitos de imagem para Netflix<br />
         Dados obtidos do site Themoviedb.org
       </footer>
