@@ -14,8 +14,8 @@ jobs:
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@4.1.0
         with:
-          server: ftp.guilhermeschubert.com.br
-          username: guilh091
-          password: 0u5u04WtMk
+          server: ${{ secrets.FTP_HOST }}
+          username: ${{ secrets.FTP_USER }}
+          password: ${{ secrets.FTP_PASSWORD }}
           server-dir: clonenetflix.guilhermeschubert.com.br/
           local-dir: build/
