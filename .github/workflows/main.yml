@@ -18,5 +18,4 @@ jobs:
           username: guilh091
           password: 0u5u04WtMk
           server-dir: repo/clonenetflix/
-      - name: Copy build
-        run: cp -rf ~/repo/clonenetflix/build/* ~/clonenetflix.guilhermeschubert.com.br/
+          local-dir: build
