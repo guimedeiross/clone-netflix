@@ -4,7 +4,7 @@ import MovieRow from "./components/MovieRow"
 import FeaturedMovie from "./components/FeaturedMovie.js"
 import Header from "./components/Header"
 import './App.css'
-//
+
 export default () => {
 
   const [movieList, setMovieList] = useState([])
